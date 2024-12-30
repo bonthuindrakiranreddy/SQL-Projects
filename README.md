@@ -7,19 +7,19 @@ This project involves cleaning and analyzing a dataset on global layoffs. The go
 
 ## Key Features
 ## Data Cleaning:
--- **Duplicate Removal:** Leveraged ROW_NUMBER() and partitioning to identify and eliminate redundant rows.
--- **Standardization:** Unified text fields (e.g., merging variations of “Crypto”), corrected country names, and formatted dates.
--- **Null Value Handling:** Replaced blanks with NULL, populated missing fields, and removed unusable rows.
--- **Preserving Raw Data:** Operated on a staging table to ensure data integrity.
+- **Duplicate Removal:** Leveraged ROW_NUMBER() and partitioning to identify and eliminate redundant rows.
+- **Standardization:** Unified text fields (e.g., merging variations of “Crypto”), corrected country names, and formatted dates.
+- **Null Value Handling:** Replaced blanks with NULL, populated missing fields, and removed unusable rows.
+- **Preserving Raw Data:** Operated on a staging table to ensure data integrity.
 
 ## Exploratory Data Analysis (EDA)
--- **Aggregate Insights:** Analyzed layoffs by company, country, and year.
---  **Time-Series Analysis:** Identified monthly trends and calculated rolling totals.
---  **Ranking:** Ranked companies by total layoffs within each year.
+- **Aggregate Insights:** Analyzed layoffs by company, country, and year.
+-  **Time-Series Analysis:** Identified monthly trends and calculated rolling totals.
+-  **Ranking:** Ranked companies by total layoffs within each year.
 
 ## SQL Techniques Used
--- Window functions (ROW_NUMBER(), DENSE_RANK)
--- Common Table Expressions (CTEs)
--- String functions (TRIM, SUBSTRING)
+- Window functions (ROW_NUMBER(), DENSE_RANK)
+- Common Table Expressions (CTEs)
+- String functions (TRIM, SUBSTRING)
 -- Date formatting and conversion (STR_TO_DATE, DATE)
 -- Joins and aggregations
