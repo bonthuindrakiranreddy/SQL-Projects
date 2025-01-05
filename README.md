@@ -1,6 +1,6 @@
 # SQL-Projects
 
-This repository demonstrates how SQL can be a powerful tool for data cleaning and exploratory data analysis (EDA). It showcases a complete workflow applied to a real-world dataset on global layoffs. The project highlights how SQL, coupled with visualization tools like Excel or BI platforms, can deliver actionable insights from raw data.
+This repository demonstrates how SQL can be a powerful tool for data cleaning and exploratory data analysis (EDA). It showcases a complete workflow applied to a real-world dataset on global layoffs. The project highlights how SQL, coupled with Power Bi for visualization, can deliver actionable insights from raw data.
 
 ## Project Overview:
 This project involves cleaning and analyzing a dataset on global layoffs. The goals were to enhance data integrity, address inconsistencies, and uncover meaningful patterns and trends. The insights will be visualized using external tools in future, completing the analytical pipeline.
@@ -16,6 +16,12 @@ This project involves cleaning and analyzing a dataset on global layoffs. The go
 - **Aggregate Insights:** Analyzed layoffs by company, country, and year.
 -  **Time-Series Analysis:** Identified monthly trends and calculated rolling totals.
 -  **Ranking:** Ranked companies by total layoffs within each year.
+
+## Visualization/Dashboard:
+The insights derived from the EDA are best visualized using external tool Power Bi.
+- Year-over-year layoff trends.
+- Top companies and countries by total layoffs.
+- Rolling totals to analyze cumulative impacts.
 
 ## SQL Techniques Used
 - Window functions (ROW_NUMBER(), DENSE_RANK)
